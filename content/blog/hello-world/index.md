@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2026-04-04
-draft: true
+draft: false
 tags: ["meta"]
 categories: ["general"]
 description: "Why this blog exists and what I'll be writing about."
