@@ -1,7 +1,7 @@
 ---
 title: "Topic-Level Kafka Cost Attribution with Prometheus"
 date: 2026-04-08
-draft: true
+draft: false
 tags: ["kafka", "finops", "prometheus", "cost-attribution", "chitragupta"]
 categories: ["finops"]
 description: "How to distribute a cluster-level Kafka bill to individual topics using Prometheus metrics, handle the remainder problem, and keep the accounting honest when the metrics pipeline goes down."
