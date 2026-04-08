@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Abhishek Walia"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Streaming architect by day. Toolsmith by compulsion."
+  copyright = "Abhishek Walia"
+
+[params.author]
+  name = "Abhishek Walia"
+  headline = "Streaming architect by day. Toolsmith by compulsion."
+  bio = "Eternal nerd dealing with complex systems, practical tooling, and the urge to share what I've learned."
+  links = [
+    { github = "https://github.com/waliaabhishek" },
+    { linkedin = "https://linkedin.com/in/abhishek-walia" },
+  ]

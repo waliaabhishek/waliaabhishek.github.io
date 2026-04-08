@@ -1,0 +1,64 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["blog"]
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/blog/"
+  cardView = true
+  cardViewScreenWidth = false
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showRelatedContent = true
+  relatedContentLimit = 3
+  sharingLinks = ["linkedin", "twitter", "reddit", "email"]
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  cardView = true
+  cardViewScreenWidth = false
+  groupByYear = true
+
+[taxonomy]
+  showTermCount = true
+  showBreadcrumbs = true
+  cardView = true
+
+[term]
+  showBreadcrumbs = true
+  showTableOfContents = false
+  groupByYear = true
+  cardView = true
