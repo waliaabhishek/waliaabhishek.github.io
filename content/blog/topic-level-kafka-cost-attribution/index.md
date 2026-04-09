@@ -1,6 +1,6 @@
 ---
 title: "Topic-Level Kafka Cost Attribution with Prometheus"
-date: 2026-04-08
+date: 2026-04-09
 draft: false
 tags: ["kafka", "finops", "prometheus", "cost-attribution", "chitragupta"]
 categories: ["finops"]
