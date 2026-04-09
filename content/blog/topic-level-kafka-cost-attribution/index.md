@@ -162,9 +162,9 @@ topics
 
 Non-zero storage cost (you're paying to keep it), near-zero network cost (nobody is touching it). Sort by storage descending, and the most expensive zombies float to the top.
 
-![Zombie Topic Candidates table from chitragupta. Topic names are blurred for privacy, but the cost columns show storage costs of $60.99, $25.36, $20.31, $17.00, and $10.03 with $0.00 network read, write, and total network for every row.](zombie-candidates.png)
+![Zombie Topic Candidates table from chitragupta. Topic names are anonymized as topic-N for this post, and the cost columns show storage costs of $42.77, $17.79, $14.25, $11.92, and $7.03 with $0.00 network read, write, and total network for every row.](zombie-candidates.png)
 
-Five topics on this page alone, $133 of storage cost between them, zero traffic. None of them should still exist.
+Five topics on this page alone, $94 of storage cost between them, zero traffic. None of them should still exist.
 
 This is twenty lines of frontend code, not a backend feature. It works because the topic attribution table already has per-topic per-product-type cost rows. Ask a new question with a filter and a sort, and the answer falls out. I'm a big proponent of this pattern: build the data layer right, and new features come comparatively cheap. More on how that data layer is structured in the next post.
 
